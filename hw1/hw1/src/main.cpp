@@ -16,7 +16,6 @@ void setup() {
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
   adc_val = analogRead(A0);//Read from analog 
   int val = map(adc_val, 0, 1023, 0, 100);//2^10-1 = 1023
   if (val>= 0 && val< 25){ // 0-25 --> no LED 
