@@ -36,7 +36,7 @@ void show_password(){
 
   if (!pass_state)
   {
-    // Does not show the password - shows * 
+    // Does not show the password
     lcd.clear();
     for (unsigned int i =0 ; i<password.length();i++){
     lcd.print('*');
