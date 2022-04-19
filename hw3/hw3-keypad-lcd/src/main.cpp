@@ -63,7 +63,6 @@ void setup() {
   lcd.setCursor(0,1); //Move coursor to second Line
   lcd.cursor();
   delay(500);
-  // Keypad
 }
 
 void loop() {  
